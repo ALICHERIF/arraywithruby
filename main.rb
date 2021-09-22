@@ -40,3 +40,5 @@ z = %w(adem mohammed ali cherif)
 #  puts z
 #end
 z.each { |i| puts i.capitalize + " "}
+j =(1..100).to_a.shuffle
+print j.select{ |i| i.odd?}
